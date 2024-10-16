@@ -17,5 +17,25 @@ mapname_to_count_mapping.json中存储的是从地图的名字到兵力的映射
 （我认为在地图名确定后，兵力就不要变了，你可以复制一个新地图副本并地图名，然后再改兵力类型和数量等配置）
 
 TIPS: 
-> 1. 数量为零的兵力类型的设置，不写上去也可以，例如：;
-> 2. 即使数量写错了，也不会出现运行错误，但我写了自动报错的逻辑，帮助你看具体的兵力不对齐的错误信息。
+> 1. 数量为零的兵力类型的设置，不写上去也可以，例如：对于
+> 2. "infantry_rifle": 0,"command_center": 0,"infantry_antitank": 0,"marine_rifle": 9,; 其中的："infantry_rifle": 0,"command_center": 0,"infantry_antitank": 0这些都可以删除，保留"marine_rifle": 9即可。
+> 3. 即使数量写错了，也不会出现运行错误，但我写了自动报错的逻辑，帮助你看具体的兵力不对齐的错误信息；
+> 4. 2017，2018是特种部队，2021，2022是海军陆战队。
+
+下面是原始的ID映射，仅供参考。
+        self.tank_id = 33
+        self.cannon_id = 32
+        self.drones_id = 56
+        self.helicopter_id = 55
+        self.detector_id = 82
+        self.carrier_id = 1773
+        self.smokegrenade_id = 2010
+        self.infantry_rifle_id = 2013  # 相同
+        self.command_center_id = 2016  # 刚查到为2016，新建单位
+        self.infantry_antitank_id = 2017  # 原2016
+        self.marine_rifle_id = 2022  # 原2021
+        self.marine_antitank_id = 2023  # 原2022
+        self.sf_rifle_id = 2018  # 原2017
+        self.sf_antitank1_id = 2019  # 原2018
+        self.sf_antitank2_id = 2020  # 原2019
+        self.sf_antiair_id = 2021  # 原2020
