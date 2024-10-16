@@ -1,0 +1,40 @@
+{
+  "fs-zj-mountain": [
+    {
+      "tank": 0,
+      "cannon": 0,
+      "drones": 0,
+      "helicopter": 0,
+      "detector": 0,
+      "carrier": 0,
+      "smokegrenade": 0,
+      "infantry_rifle": 0,
+      "command_center": 0,
+      "infantry_antitank": 0,
+      "marine_rifle": 9,
+      "marine_antitank": 0,
+      "sf_rifle": 9,
+      "sf_antitank1": 0,
+      "sf_antitank2": 0,
+      "sf_antiair": 0
+    },
+    {
+      "tank": 0,
+      "cannon": 0,
+      "drones": 0,
+      "helicopter": 0,
+      "detector": 0,
+      "carrier": 0,
+      "smokegrenade": 0,
+      "infantry_rifle": 0,
+      "command_center": 1,
+      "infantry_antitank": 0,
+      "marine_rifle": 12,
+      "marine_antitank": 0,
+      "sf_rifle": 0,
+      "sf_antitank1": 0,
+      "sf_antitank2": 0,
+      "sf_antiair": 0
+    }
+  ]
+}
